@@ -6,7 +6,7 @@ The script required the **TLDextract** library by John, for Python 3. More on th
 
 Command to install: pip install tldextract
 
-**Usage: **
+**Usage:**
 - $chmod +x domain.py
 - $./domain.py
 
