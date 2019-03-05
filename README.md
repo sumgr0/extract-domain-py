@@ -8,6 +8,8 @@ Command to install: pip install tldextract
 
 **Usage:**
 - $chmod +x domain.py
-- $./domain.py
+- $./domain.
+
+**Note:** The input files must contain one URL in each line.
 
 Enjoy!!
