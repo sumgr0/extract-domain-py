@@ -35,7 +35,7 @@ with open(raw,"r") as rr:
 	rr = [item.lower().replace("\n", "") for item in rr.readlines()]
 with open(sort, "w") as s:
 	for item in sorted(set(rr)):
-		s.write(item.title()+"\n")
+		s.write(item.lower()+"\n")
 
 print(">>Removing Raw Domains file")
 os.remove(raw)
