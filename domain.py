@@ -4,10 +4,16 @@ import os
 import sys
 import tldextract
 
-#Files in use
-subdom = str(input('Enter file path: ')) #file input for URL list
-raw = "raw_domain.txt" # raw file for working
-sort = "sorted_domain.txt" # unique value of domain listing
+#Check command line for inputs
+if len(sys.argv) < 3:
+	print("Wrong parameter")
+	print("python3 domain.py input_file output_file")
+	sys.exit(1)
+
+#Reading command line arguments
+subdom = (sys.argv[1])
+sort = (sys.argv[2])
+raw = "raw_domain.txt"
 
 with open(subdom) as o:
 	if os.path.exists("raw_domain.txt"):

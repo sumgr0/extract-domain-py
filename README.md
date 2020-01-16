@@ -8,9 +8,10 @@ Command to install: pip install tldextract
 
 **Usage:**
 - $chmod +x domain.py
-- $./domain.py <filename>
+- $./domain.py <input_file> <output_file>
 
-**Note-1:** The input files must contain one URL in each line.
-**Note-2:** The output is stored in the program folder itself as sorted_domain.txt.
+Notes:
+
+- The input files must contain one URL in each line
 
 Enjoy!!
